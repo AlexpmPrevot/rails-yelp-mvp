@@ -1,0 +1,10 @@
+<div class="card text-center">
+  <div class="card-header fs-2">
+    <%= restaurant.name %>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title"><%= restaurant.category %></h5>
+    <p class="card-text"><%= restaurant.address %></p>
+    <%= link_to 'View details', restaurant_path(restaurant), class: 'btn btn-primary' %>
+  </div>
+</div>
